@@ -26,7 +26,7 @@ class RedViewController: UIViewController {
         //instantiate GreenViewController
         let greenVC: GreenViewController = self.storyboard?.instantiateViewControllerWithIdentifier("GreenViewController") as! GreenViewController
         
-//  to show greenVC
+        //  to show greenVC
 //        self.presentViewController(greenVC, animated: true, completion: nil)
         
         //to show navigation back buttom on the next VC - greenVC
