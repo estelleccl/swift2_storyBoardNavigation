@@ -32,4 +32,18 @@ class GreenViewController: UIViewController {
     }
     */
 
+    @IBAction func showRedVC(sender: AnyObject) {
+        let redVC: RedViewController = self.storyboard?.instantiateViewControllerWithIdentifier("RedViewController") as! RedViewController
+        
+        self.presentViewController(redVC, animated: true, completion: nil)
+    }
+    
+    @IBAction func dismiss(sender: AnyObject) {
+        //to go back to Red Controller
+//        self.dismissViewControllerAnimated(true, completion: nil)
+        
+        //to pop this greenVC and go back to redVC
+        self.navigationController?.popViewControllerAnimated(true)
+        
+    }
 }

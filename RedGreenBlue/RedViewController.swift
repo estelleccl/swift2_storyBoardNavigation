@@ -10,6 +10,7 @@ import UIKit
 
 class RedViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,8 +21,18 @@ class RedViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
+    @IBAction func showGreenVC(sender: AnyObject) {
+        //instantiate GreenViewController
+        let greenVC: GreenViewController = self.storyboard?.instantiateViewControllerWithIdentifier("GreenViewController") as! GreenViewController
+        
+//  to show greenVC
+//        self.presentViewController(greenVC, animated: true, completion: nil)
+        
+        //to show navigation back buttom on the next VC - greenVC
+        self.navigationController?.pushViewController(greenVC, animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
