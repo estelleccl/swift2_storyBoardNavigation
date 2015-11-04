@@ -14,6 +14,9 @@
 		16897D1D1BE9D6A00016EF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16897D1B1BE9D6A00016EF88 /* LaunchScreen.storyboard */; };
 		16897D281BE9D6A00016EF88 /* RedGreenBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16897D271BE9D6A00016EF88 /* RedGreenBlueTests.swift */; };
 		16897D331BE9D6A00016EF88 /* RedGreenBlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16897D321BE9D6A00016EF88 /* RedGreenBlueUITests.swift */; };
+		16897D411BE9D7230016EF88 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16897D401BE9D7230016EF88 /* RedViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		16897D431BE9D7350016EF88 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16897D421BE9D7350016EF88 /* BlueViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		16897D451BE9D7420016EF88 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16897D441BE9D7420016EF88 /* GreenViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		16897D2E1BE9D6A00016EF88 /* RedGreenBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedGreenBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16897D321BE9D6A00016EF88 /* RedGreenBlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedGreenBlueUITests.swift; sourceTree = "<group>"; };
 		16897D341BE9D6A00016EF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16897D401BE9D7230016EF88 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		16897D421BE9D7350016EF88 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		16897D441BE9D7420016EF88 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				16897D191BE9D6A00016EF88 /* Assets.xcassets */,
 				16897D1B1BE9D6A00016EF88 /* LaunchScreen.storyboard */,
 				16897D1E1BE9D6A00016EF88 /* Info.plist */,
+				16897D401BE9D7230016EF88 /* RedViewController.swift */,
+				16897D421BE9D7350016EF88 /* BlueViewController.swift */,
+				16897D441BE9D7420016EF88 /* GreenViewController.swift */,
 			);
 			path = RedGreenBlue;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				16897D151BE9D6A00016EF88 /* ViewController.swift in Sources */,
+				16897D411BE9D7230016EF88 /* RedViewController.swift in Sources */,
+				16897D431BE9D7350016EF88 /* BlueViewController.swift in Sources */,
 				16897D131BE9D6A00016EF88 /* AppDelegate.swift in Sources */,
+				16897D451BE9D7420016EF88 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
